@@ -1,0 +1,778 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coustomers</title>
+    <link rel="icon" type="image/x-icon" href="C:\Users\DELL\Desktop\devtrain\project 4\log.svg">
+
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+   <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+   <link rel="stylesheet" href="/wellfound/customer/customerstyle.css">
+   <style>
+    /* topbar */
+body{
+    overflow-x: hidden;
+    font-family: Graphik, sans-serif;
+}
+.topbar{
+    width: 100%;
+   background-color:#210d25 ; 
+   padding-bottom: 0%;
+}
+.dis{
+    margin-left: 36%;
+    margin-top: 1%;
+}
+.box1{
+    position:absolute;
+    color: #fff;
+    letter-spacing: .48px;
+    text-transform: uppercase;
+    background-color: #e9357b;
+    border-radius: 6px;
+    padding: 6px 8px;
+    margin-left: 24%;
+    margin-top: 0%;
+    font-size: 12px;
+    font-weight: 800;
+    line-height: 100%;
+}
+.btn{
+    background-color: white;
+    color: black;
+    border-radius: 6px;
+    font-weight: 600;
+}
+.btn:hover{
+color:#ec2e3a;
+}
+.form-inline{
+    margin-left: 68%;  
+    margin-top: -4%;  
+    }
+    @media (max-width: 768px) {
+        .dis {
+            margin-left: 20%; 
+            margin-top: 2%; 
+        }
+        
+        .box1 {
+            margin-left: 2%; 
+        }
+        
+        .form-inline {
+            margin-left: 80%;
+            margin-top: -7%; 
+        }
+    }
+    
+    /* Media query for screens smaller than 554px (phones) */
+    @media (max-width: 554px) {
+        .dis {
+            text-align: center;
+            margin-left: 5%; 
+            margin-top: 8%; 
+        }
+        
+        .box1 {
+            margin-top: -27%;
+            margin-left: 30%;
+        }
+        
+        .form-inline {
+            margin-left: 40%; 
+            margin-top: -7%; 
+        }
+    }
+    @media (max-width: 425px) {
+        .dis {
+            text-align: center;
+            margin-left: 5%; 
+            margin-top: 10%; 
+        }
+        
+        .box1 {
+            margin-top: -30%;
+            margin-left: 32%; 
+        }
+        
+        .form-inline {
+            margin-left: 40%; 
+            margin-top: -6%; 
+        }
+    }
+/* topbar end */
+
+/* navbar */
+.navbar-scroll {
+    background-color: transparent;
+    transition: background-color 0.5s ease-in-out;
+  }
+
+  .navbar-scroll.scrolled {
+    box-shadow: 4px 4px 4px 4px grey;
+  }
+.nav{
+    background-color: white;
+}
+ .navbar-brand{
+    font-size: 2.4rem;
+    margin-left: 5%;
+    font-weight: 700;
+}
+@media (max-width:320px){
+    .navbar-brand{
+     margin-left: 3%;
+     font-size:1.9rem;
+    }
+  }
+  @media (max-width:370px){
+    .navbar-brand{
+     margin-left: 3%;
+     font-size:1.7rem;
+    }
+  }
+
+.navbar-nav{
+ position: relative;
+ left: 16%;
+}
+@media (max-width:320px){
+    .navbar-nav{
+     left: 35%;
+    }
+  }
+  /* @media screen and (max-width:768px){
+    .navbar-nav{
+     left: 50%;
+    }
+  } */
+
+.nav-link{
+font-weight: 500;
+font-size: 16px;
+text-decoration: none;
+color: black;
+padding: 20px 0px;
+margin: 0px 20px;
+display: inline-block;
+position: relative;
+}
+.nav-link:hover{
+color: #124E66 !important;
+opacity: 1;
+}
+.nav-link::before {
+transition: 300ms;
+height: 5px;
+content: "";
+position: absolute;
+background-color: #124E66;
+}
+.nav-link-ltr::before {
+width: 0%;
+bottom: 10px;
+}
+.nav-link-ltr:hover::before {
+ width: 100%;
+}
+.btn1{
+    position: relative;
+    border: 1px solid #7b898f;
+    border-radius: 12px;
+    color:black;
+    left: 185%;
+    font-size: 0.9rem;
+    background-color:white;
+    font-weight: 600; 
+}
+.btn1:hover{
+    color: #ec2e3a;
+    border: 1px solid #ec2e3a;
+    background-color: #fcd9dc;
+    box-shadow: 0 0 8px #e80413;
+}
+.btn2:hover{
+    background-color: #ec2e3a;
+    box-shadow: 0 0 8px #e80413;
+    color: white;
+}
+.btn2{
+    position: relative;
+    font-weight: 500; 
+    color:white;
+    left:195%;
+    font-size: 0.9rem;
+    border-radius: 12px;
+    background-color:black;
+    font-weight: 600; 
+}
+@media screen and (max-width:320px){
+    .btn1{
+     left: 1%;
+    }
+    .btn2{
+       left: 1%;
+       }
+  }
+  @media screen and (max-width:375px){
+    .btn1{
+     left: 1%;
+    }
+    .btn2{
+       left: 1%;
+       }
+  }
+  @media screen and (max-width:425px){
+    .btn1{
+     left: 1%;
+    }
+    .btn2{
+       left: 1%;
+       }
+  }
+  @media screen and (max-width:768px){
+    .btn1{
+     left: 0%;
+    }
+    .btn2{
+       left: 0%;
+       }
+  }
+
+/* navbar end  */
+
+/* banner  */
+.titlebanner{
+    font-size: 4em;
+color: black;
+font-weight: bold;
+}
+.parabanner{
+    font-size: large;
+    color: black;
+}
+
+@media screen and (max-width:320px) {
+    .titlebanner{
+        font-size: 2em;
+    color: black;
+    font-weight: bold;
+    }
+}
+
+/* section 1 */
+.cd1{
+    background-image: linear-gradient(90deg, #fceee6, #eef0fe);
+}
+.card-para{
+    font-size: small;
+    color: black;
+    font-weight: 400;
+}
+.card-text{
+    color: black;
+}
+
+
+
+
+
+
+/* section 3 */
+
+.color{
+    background-color: #541142;
+ }
+ .bod{
+    border: 1px solid rgb(125, 109, 109);
+    border-radius: 10px;
+    color: white;
+    /* font-weight: 600; */
+    background-color: transparent;
+ }
+ .bod:hover{
+    background-color: white;
+    color: black;
+ }
+ @media (max-width: 768px) {
+    .bod{ 
+        margin-left: 50%; 
+        transform: translate(-50%, -50%);
+    }
+    .bodd{ 
+        margin-left:-7%;
+        transform: translate(-50%, -50%);
+    }
+    .boddd{ 
+        margin-left:95%; 
+        transform: translate(-50%, -50%);
+    }
+    .title-3{  
+        font-size: 0.9rem;
+        font-weight: 800;
+    }
+    .moreposts{
+        margin-top: 20%;
+        width: 70%;
+        margin-bottom: 0%;
+    }
+}
+
+
+
+/* footer */
+.footer{
+    background-color: #210d25;
+    }
+    .for{
+        cursor: pointer;
+        color: white;
+    }
+    li{
+        list-style: none;
+    }
+    ul{
+        /* margin-left: -19%; */
+        line-height:30px;
+    }
+    a{
+        color: white;
+    }
+    a:hover{
+        color:#ec2e3a;
+    
+    }
+    p{
+        color: white;
+        font-size: 0.95rem;
+        font-weight: 400;
+    }
+    
+    /* footer end */
+   </style>
+</head>
+<body>
+ <!-- topbar -->
+ <nav class="navbar navbar-light topbar">
+        
+  <span class="box1">10 OF IN 10 2023</span>
+  <p class="dis" style="color: white;">Discover our ten top startups across ten trending industries</p>
+
+  <form class="form-inline">
+    <button class="btn my-2 my-sm-0" type="submit">Learn More</button>
+  </form>
+</nav>
+<!-- topbar end -->
+<!-- navbar -->
+<nav class="navbar navbar-expand-lg navbar-light  sticky-top navbar-scroll  nav p-0 w-100  "id="navbar">
+  <a class="navbar-brand " href="./index.html">
+      wellfound<span style="color: rgb(243, 8, 8);" >:</span>
+  </a>
+  <button class="navbar-toggler " type="button" data-toggle="collapse" data-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarScroll">
+    <ul class="navbar-nav mr-auto my-2 my-lg-0 navbar-nav-scroll" style="max-height: 100px;">
+      <li class="nav-item ">
+        <a class="nav-link text-dark nav-link-ltr mt-2" href="#">Discover</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link ml-1 text-dark nav-link-ltr  mt-2" href="./for job seekers.html">Overview</a>
+      </li>
+      <li class="nav-item">
+        <a href="./for job seekers.html" class="nav-link ml-1 text-dark nav-link-ltr mt-2">For job seekers</a>
+      </li>
+      <li>
+          <a href="./login.html"><button  class="btn btn1 mr-3 mt-4  pt-2 pl-4 pr-4 ml-2" type="submit">Log In</button></a>
+      </li>
+      <li>
+        <a href="./signup.html"> <button class="btn btn2 mt-4 pl-3 pt-2 pr-4 ml-2" type="submit">Sign Up</button></a>
+     </li> 
+    </ul>
+  </div>
+</nav>
+<!-- navbar end -->
+<!-- banner  -->
+<div class="container-flid">
+    <div class="row  ">
+        <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12 p-5 ">
+<h1 class="titlebanner">Customer Stories</h1>
+<p class="parabanner">Our mission at Wellfound is to help startups grow their team, <br> 
+    and help talent find their team -- we practice what we preach. <br>
+     Read up on all the success stories from our community.</p>
+        </div>
+    <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12 p-5">
+<!-- <video src="" ></video> -->
+<!-- <iframe width="100%" height="300" src="https://www.youtube.com/embed/BsAryP4s0cw?si=Fr8DcIkM2Bx2-TWo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe> -->
+<iframe width="100%" height="300" src="https://www.youtube.com/embed/BsAryP4s0cw?si=Fr8DcIkM2Bx2-TWo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    
+</div>
+</div>
+</div>
+
+
+<!-- section 1 -->
+<div class="container-fluid">
+   <div class="row ">
+    <div class="col ml-5">
+        <h3 class="mb-0 text-danger">feature stories</h3>
+    </div>
+   </div>
+    <div class="row ">
+      
+        <div class="col p-5">
+            <div class="card cd1">
+                <img src="https://cdn.prod.website-files.com/64626a4a74818ca87606a2c4/66827df261bfb3113a1d9192_dosulogo.svg" class="card-img-top w-50  p-3" alt="...">
+                <div class="card-body bg-white">
+                    <p class="card-para">”If you know what you're looking for, and you're looking to save a ton of time, it's a no brainer. The feedback loop and the scope of search is great . When you don't have the resources and time you need to recruit, RecruiterCloud gives you an easy and streamlined workflow extended on this morning to work out.</p>
+                
+                    <h6 class="card-title mt-5">Devin Stein</h6>
+                  <p class="card-text mt-2 ">CEO & Founder of Dosu</p>
+                  <a href="" class="text-danger">view success story</a>
+                </div>
+              </div>
+        </div>
+        <div class="col p-5">
+            <div class="card cd1 ">
+                <img src="https://cdn.prod.website-files.com/64626a4a74818ca87606a2c4/667c19569cbfc120d339b77d_adonis-logo.svg" class="card-img-top w-50  p-3" alt="...">
+                <div class="card-body bg-white">
+                    <p class="card-para">"About two weeks in when I realized that the quality was significantly higher. it was amazing tour Again, not to disrespect agencies at all, but there's a bit of a spray and pray model there. And I was very clear  early on that we didn't want that, nor could I handle that,"</p>
+                    
+                    <br>
+                    <h6 class="card-title mt-5">Max</h6>
+                  <p class="card-text mt-2">Head of Recruiting</p>
+                  <a href="" class="text-danger mt-0">view success story</a>
+                </div>
+              </div>
+        </div>
+        <div class="col p-5">
+            <div class="card cd1">
+                <img src="https://cdn.prod.website-files.com/64626a4a74818ca87606a2c4/667c40711decb0faa01a07d9_xander-logo-black.png" class="card-img-top w-50  p-3" alt="...">
+                <div class="card-body bg-white">
+                    <p class="card-para">“My sourcer met with me, understood the job, screened every single candidate, and only sent me candidates that were worth considering. I was very picky, so they continued to work with me to refine the search. Through that process we've got two viable candidates that we could extend offers to. We actually extended on this morning who's going to work out.“</p>
+                 
+                    <h6 class="card-title mt-5">Alex Westner</h6>
+                  <p class="card-text mt-2">CEO of Xander</p>
+                  <a href="" class="text-danger">view success story</a>
+                </div>
+              </div>
+        </div>
+    </div>
+</div>
+
+<hr>
+ <!-- section 2 -->
+  <div class="container-fluid">
+        <div class="row ">
+      
+            <div class="col p-5">
+                <div class="card">
+                    <img src="https://cdn.prod.website-files.com/64626a4a74818ca87606a2c4/667c0b26f7c5f153d56034aa_branch-logo.png" class="card-img-top w-50  p-3" alt="...">
+                    <div class="card-body bg-white">
+                        <p class="card-para">“What I like about Curated is how refined the candidates are. We have a lot of great, qualified candidates, and the response rate on Curated is really good.“</p>
+                    
+                        <h6 class="card-title mt-4">Gabriel Aranda</h6>
+                      <p class="card-text  ">Recruiter</p>
+                      <a href="" class="text-danger">view success story</a>
+                    </div>
+                  </div>
+            </div>
+            <div class="col p-5">
+                <div class="card ">
+                    <img src="https://cdn.prod.website-files.com/64626a4a74818ca87606a2c4/667c15573ae386ee2740f862_monograph-logo.jpg" class="card-img-top w-25  p-3" alt="...">
+                    <div class="card-body bg-white">
+                        <p class="card-para">“With the growth of our company and commitment to culture, I can't imagine us scaling our team without them.”</p>
+                        
+                        
+                        <h6 class="card-title mt-5">Moe Amaya</h6>
+                      <p class="card-text ">Head of Engineering @ Monograph</p>
+                      <a href="" class="text-danger mt-0">view success story</a>
+                    </div>
+                  </div>
+            </div>
+            <div class="col p-5">
+                <div class="card">
+                    <img src="https://cdn.prod.website-files.com/64626a4a74818ca87606a2c4/667c1ef6b6f66678afacced5_affinity-logo.svg" class="card-img-top w-50  p-3" alt="...">
+                    <div class="card-body bg-white">
+                        <p class="card-para">“The quality of candidates we received... has been consistently superior to that from our other external sourcing solutions. We made an average of 4 tech hires every quarter.“</p>
+                     
+                        <h6 class="card-title mt-5">Stephanie Martin</h6>
+                      <p class="card-text ">VP of People @ Affinity</p>
+                      <a href="" class="text-danger">view success story</a>
+                    </div>
+                  </div>
+            </div>
+        </div>
+
+        <div class="row ">
+      
+            <div class="col p-5">
+                <div class="card">
+                    <img src="https://cdn.prod.website-files.com/64626a4a74818ca87606a2c4/667c0be312c3c74f421d46be_trace-logo.svg" class="card-img-top w-50  p-3" alt="...">
+                    <div class="card-body bg-white">
+                        <p class="card-para">“What I like about Curated is how refined the candidates are. We have a lot of great, qualified candidates, and the response rate on Curated is really good.“</p>
+                    
+                        <h6 class="card-title mt-4">Gabriel Aranda</h6>
+                      <p class="card-text  ">Recruiter</p>
+                      <a href="" class="text-danger">view success story</a>
+                    </div>
+                  </div>
+            </div>
+            <div class="col p-5">
+                <div class="card ">
+                    <img src="https://cdn.prod.website-files.com/64626a4a74818ca87606a2c4/667c0ba1e96dbbcf1c5bc767_preset-logo.svg" class="card-img-top w-50  p-3" alt="...">
+                    <div class="card-body bg-white">
+                        <p class="card-para">“With the growth of our company and commitment to culture, I can't imagine us scaling our team without them.”</p>
+                        
+                        
+                        <h6 class="card-title mt-5">Moe Amaya</h6>
+                      <p class="card-text ">Head of Engineering @ Monograph</p>
+                      <a href="" class="text-danger mt-0">view success story</a>
+                    </div>
+                  </div>
+            </div>
+            <div class="col p-5">
+                <div class="card">
+                    <img src="https://cdn.prod.website-files.com/64626a4a74818ca87606a2c4/66828905b22a1e4e0eac1c39_mayfair%20logo.svg" class="card-img-top w-50  p-3" alt="...">
+                    <div class="card-body bg-white">
+                        <p class="card-para">“The quality of candidates we received... has been consistently superior to that from our other external sourcing solutions. We made an average of 4 tech hires every quarter.“</p>
+                     
+                        <h6 class="card-title mt-5">Stephanie Martin</h6>
+                      <p class="card-text ">VP of People @ Affinity</p>
+                      <a href="" class="text-danger">view success story</a>
+                    </div>
+                  </div>
+            </div>
+        </div>
+
+
+        <div class="row ">
+      
+            <div class="col p-5">
+                <div class="card">
+                    <img src="https://cdn.prod.website-files.com/64626a4a74818ca87606a2c4/667c0b26f7c5f153d56034aa_branch-logo.png" class="card-img-top w-50  p-3" alt="...">
+                    <div class="card-body bg-white">
+                        <p class="card-para">“What I like about Curated is how refined the candidates are. We have a lot of great, qualified candidates, and the response rate on Curated is really good.“</p>
+                    
+                        <h6 class="card-title mt-4">Gabriel Aranda</h6>
+                      <p class="card-text  ">Recruiter</p>
+                      <a href="" class="text-danger">view success story</a>
+                    </div>
+                  </div>
+            </div>
+            <div class="col p-5">
+                <div class="card ">
+                    <img src="https://cdn.prod.website-files.com/64626a4a74818ca87606a2c4/667c15573ae386ee2740f862_monograph-logo.jpg" class="card-img-top w-25  p-3" alt="...">
+                    <div class="card-body bg-white">
+                        <p class="card-para">“With the growth of our company and commitment to culture, I can't imagine us scaling our team without them.”</p>
+                        
+                        
+                        <h6 class="card-title mt-5">Moe Amaya</h6>
+                      <p class="card-text ">Head of Engineering @ Monograph</p>
+                      <a href="" class="text-danger mt-0">view success story</a>
+                    </div>
+                  </div>
+            </div>
+            <div class="col p-5">
+                <div class="card">
+                    <img src="https://cdn.prod.website-files.com/64626a4a74818ca87606a2c4/667c1ef6b6f66678afacced5_affinity-logo.svg" class="card-img-top w-50  p-3" alt="...">
+                    <div class="card-body bg-white">
+                        <p class="card-para">“The quality of candidates we received... has been consistently superior to that from our other external sourcing solutions. We made an average of 4 tech hires every quarter.“</p>
+                     
+                        <h6 class="card-title mt-5">Stephanie Martin</h6>
+                      <p class="card-text ">VP of People @ Affinity</p>
+                      <a href="" class="text-danger">view success story</a>
+                    </div>
+                  </div>
+            </div>
+        </div>
+
+        <div class="row ">
+      
+            <div class="col p-5">
+                <div class="card">
+                    <img src="https://cdn.prod.website-files.com/64626a4a74818ca87606a2c4/667c0be312c3c74f421d46be_trace-logo.svg" class="card-img-top w-50  p-3" alt="...">
+                    <div class="card-body bg-white">
+                        <p class="card-para">“What I like about Curated is how refined the candidates are. We have a lot of great, qualified candidates, and the response rate on Curated is really good.“</p>
+                    
+                        <h6 class="card-title mt-4">Gabriel Aranda</h6>
+                      <p class="card-text  ">Recruiter</p>
+                      <a href="" class="text-danger">view success story</a>
+                    </div>
+                  </div>
+            </div>
+            <div class="col p-5">
+                <div class="card ">
+                    <img src="https://cdn.prod.website-files.com/64626a4a74818ca87606a2c4/667c0ba1e96dbbcf1c5bc767_preset-logo.svg" class="card-img-top w-50  p-3" alt="...">
+                    <div class="card-body bg-white">
+                        <p class="card-para">“With the growth of our company and commitment to culture, I can't imagine us scaling our team without them.”</p>
+                        
+                        
+                        <h6 class="card-title mt-5">Moe Amaya</h6>
+                      <p class="card-text ">Head of Engineering @ Monograph</p>
+                      <a href="" class="text-danger mt-0">view success story</a>
+                    </div>
+                  </div>
+            </div>
+            <div class="col p-5">
+                <div class="card">
+                    <img src="https://cdn.prod.website-files.com/64626a4a74818ca87606a2c4/66828905b22a1e4e0eac1c39_mayfair%20logo.svg" class="card-img-top w-50  p-3" alt="...">
+                    <div class="card-body bg-white">
+                        <p class="card-para">“The quality of candidates we received... has been consistently superior to that from our other external sourcing solutions. We made an average of 4 tech hires every quarter.“</p>
+                     
+                        <h6 class="card-title mt-5">Stephanie Martin</h6>
+                      <p class="card-text ">VP of People @ Affinity</p>
+                      <a href="" class="text-danger">view success story</a>
+                    </div>
+                  </div>
+            </div>
+        </div>
+
+  </div>
+
+  <!-- section 3 -->
+  <div class="container-fluid ">
+    <div class="row color ">
+      <div class="col mt-5 mb-5"></div>
+      <div class="col mt-5 mb-5"></div>
+      <div class="col mt-5 mb-5"></div>
+      <div class="col mt-5 mb-5"><button class=" p-2 pl-5 pr-5 bod bodd">Jobs</button></div>
+      <div class="col mt-5 mb-5"><button class=" p-2 pl-5 pr-5 bod">Featured</button></div>
+      <div class="col mt-5 mb-5"><button class=" p-2 pl-5 pr-5 bod">Remote</button></div>
+      <div class="col mt-5 mb-5"><a href="./customer.html"><button class=" p-2 pl-5 pr-5 bod">Customers</button></a></div>
+      <div class="col mt-5 mb-5"><a href="./pricing.html"><button class=" p-2 pl-5 pr-5 bod boddd">Pricing</button></a></div>
+      <div class="col mt-5 mb-5"></div>
+      <div class="col mt-5 mb-5"></div>
+      <div class="col mt-5 mb-5"></div>
+    </div>
+  </div>
+
+   <!-- footer  -->
+<div class="container-fulid  footer " style=" border: 1px solid #210d25;" >
+    <div class="row mt-5">
+      <div class="col-xl-6 col-lg-4 col-md-6 col-sm-12 mt-5">
+        <img class="mt-4 ml-5" src="https://cdn.prod.website-files.com/64626a4a74818ca87606a29e/64629216e7489c82412a194a_Primary%20Logo%20-%20Black.svg" alt="">
+      </div>
+      <div class="col-xl-2 col-lg-4 col-md-6 col-sm-12 mt-5" >
+        <h4 class="for mt-4 ml-4">
+          For Candidates
+        </h4>
+        <ul class="mt-3">
+          <li class="">
+            <a class="" href="#">Overview</a>
+          </li>
+          <li class="">
+            <a class="" href="#">Startup Jobs</a>
+          </li>
+          <li class="">
+            <a class="" href="#">Web3 Jobs</a>
+          </li>
+          <li class="">
+            <a class="" href="#">Featured</a>
+          </li>
+          <li class="">
+            <a class="" href="#">Salary Calculator</a>
+          </li>
+          <li class="">
+            <a class="" href="#">Startup Hiring Data</a>
+          </li>
+          <li class="">
+            <a class="" href="#">Tech Startups</a>
+          </li>
+          <li class="">
+            <a class="" href="#">Remote</a>
+          </li>
+        </ul>
+      </div>
+      <div class="col-xl-2 col-lg-2 col-md-6 col-sm-12 mt-5">
+        <h4 class="for mt-4 ml-4">
+          For Recruiters
+        </h4>
+        <ul class="mt-3">
+          <li class="">
+            <a class="" href="#">Overview</a>
+          </li>
+          <li class="">
+            <a class="" href="#">Recruit Pro</a>
+          </li>
+          <li class="">
+            <a class="" href="#">Curated</a>
+          </li>
+          <li class="">
+            <a class="" href="#">RecruiterCloud</a>
+          </li>
+          <li class="">
+            <a class="" href="#">Hire Developers</a>
+          </li>
+          <li class="">
+            <a class="" href="#">Pricing</a>
+          </li>
+        </ul>
+      </div>
+      <div class="col-xl-2 col-lg-2 col-md-6  col-sm-12 mt-5">
+        <h4 class="for mt-4 ml-4">
+          Company
+        </h4>
+        <ul class="mt-3">
+          <li class="">
+            <a class="" href="#">About</a>
+          </li>
+          <li class="">
+            <a class="" href="#">AngelList Venture</a>
+          </li>
+          <li class="">
+            <a class="" href="#">Help</a>
+          </li>
+          <li class="">
+            <a class="" href="#">Blog</a>
+          </li>
+          <li class="">
+            <a class="" href="#">Terms & Risks</a>
+          </li>
+          <li class="">
+            <a class="" href="#">Privacy & Cookies</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <div class="row mt-3">
+      <div class="col-xl-6 mt-5 ">
+        <div class="ml-5">
+          <img  class="" src="./twitter (1).png" alt="">
+          <img class="ml-3" src="./instagram.png" alt="">
+          <p class="d-inline ml-3">Copyright © 2024 Wellfound (formerly AngelList Talent). All rights reserved.</p>
+      </div>
+      </div>
+      <div class="col-xl-6 mt-5">
+        <p class="ml-2">Browse by:  <a  href=""> <ins>Jobs</ins></a>, <a href=""><ins>Remote Jobs</ins></a>, <a href=""><ins> Locations</ins></a>, <a href=""><ins> Startups</ins></a>, <a href=""><ins>Startups Hiring</ins></a>, <a href=""><ins>Industries</ins></a>,<a href=""><ins>Tech Hubs</ins></a></p>
+      </div>
+    </div>
+</div>
+
+
+</body>
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<script>
+  AOS.init();
+  window.addEventListener('scroll', () => {
+       const navbar = document.getElementById('navbar');
+       if (window.scrollY > 100) {
+         navbar.classList.add('scrolled');
+       } else {
+         navbar.classList.remove('scrolled');
+       }
+     });
+ </script>
+<script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.min.js" integrity="sha384-+sLIOodYLS7CIrQpBjl+C7nPvqq+FbNUBDunl/OZv93DB7Ln/533i8e/mZXLi/P+" crossorigin="anonymous"></script>
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+
+</html>

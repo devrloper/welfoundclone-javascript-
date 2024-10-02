@@ -1,0 +1,1261 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hire Startup Talent | wellfound (formerly Angel/.List Talent) - Startup Job Search</title>
+    <link rel="icon" type="image/x-icon" href="C:\Users\DELL\Desktop\devtrain\project 4\log.svg">
+
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+   <link rel="stylesheet" href="/wellfound/overview/styles.css">
+   <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+   <style>
+    body{
+    overflow-x: hidden;
+}
+@media (max-width:768px){
+  body{
+        overflow-x: hidden;
+    }
+}
+/* topbar */
+body{
+    overflow-x: hidden;
+    font-family: Graphik, sans-serif;
+}
+.topbar{
+    width: 100%;
+   background-color:#210d25 ; 
+   padding-bottom: 0%;
+}
+.dis{
+    margin-left: 36%;
+    margin-top: 1%;
+}
+.box1{
+    position:absolute;
+    color: #fff;
+    letter-spacing: .48px;
+    text-transform: uppercase;
+    background-color: #e9357b;
+    border-radius: 6px;
+    padding: 6px 8px;
+    margin-left: 24%;
+    margin-top: 0%;
+    font-size: 12px;
+    font-weight: 800;
+    line-height: 100%;
+}
+.btn{
+    background-color: white;
+    color: black;
+    border-radius: 6px;
+    font-weight: 600;
+}
+.btn:hover{
+color:#ec2e3a;
+}
+.form-inline{
+    margin-left: 68%;  
+    margin-top: -4%;  
+    }
+    @media (max-width: 768px) {
+        .dis {
+            margin-left: 20%; 
+            margin-top: 2%; 
+        }
+        
+        .box1 {
+            margin-left: 2%; 
+        }
+        
+        .form-inline {
+            margin-left: 80%;
+            margin-top: -7%; 
+        }
+    }
+    
+    /* Media query for screens smaller than 554px (phones) */
+    @media (max-width: 554px) {
+        .dis {
+            text-align: center;
+            margin-left: 5%; 
+            margin-top: 8%; 
+        }
+        
+        .box1 {
+            margin-top: -27%;
+            margin-left: 30%;
+        }
+        
+        .form-inline {
+            margin-left: 40%; 
+            margin-top: -7%; 
+        }
+    }
+    @media (max-width: 425px) {
+        .dis {
+            text-align: center;
+            margin-left: 5%; 
+            margin-top: 10%; 
+        }
+        
+        .box1 {
+            margin-top: -30%;
+            margin-left: 32%; 
+        }
+        
+        .form-inline {
+            margin-left: 40%; 
+            margin-top: -6%; 
+        }
+    }
+/* topbar end */
+
+/* navbar */
+.navbar-scroll {
+    background-color: transparent;
+    transition: background-color 0.5s ease-in-out;
+  }
+
+  .navbar-scroll.scrolled {
+    box-shadow: 4px 4px 4px 4px grey;
+  }
+.nav{
+    background-color: white;
+}
+ .navbar-brand{
+    font-size: 2.4rem;
+    margin-left: 5%;
+    font-weight: 700;
+}
+@media (max-width:320px){
+    .navbar-brand{
+     margin-left: 3%;
+     font-size:1.9rem;
+    }
+  }
+  @media (max-width:370px){
+    .navbar-brand{
+     margin-left: 3%;
+     font-size:1.7rem;
+    }
+  }
+
+.navbar-nav{
+ position: relative;
+ left: 16%;
+}
+@media (max-width:320px){
+    .navbar-nav{
+     left: 35%;
+    }
+  }
+  /* @media screen and (max-width:768px){
+    .navbar-nav{
+     left: 50%;
+    }
+  } */
+
+.nav-link{
+font-weight: 500;
+font-size: 16px;
+text-decoration: none;
+color: black;
+padding: 20px 0px;
+margin: 0px 20px;
+display: inline-block;
+position: relative;
+}
+.nav-link:hover{
+color: #124E66 !important;
+opacity: 1;
+}
+.nav-link::before {
+transition: 300ms;
+height: 5px;
+content: "";
+position: absolute;
+background-color: #124E66;
+}
+.nav-link-ltr::before {
+width: 0%;
+bottom: 10px;
+}
+.nav-link-ltr:hover::before {
+ width: 100%;
+}
+.btn1{
+    position: relative;
+    border: 1px solid #7b898f;
+    border-radius: 12px;
+    color:black;
+    left: 185%;
+    font-size: 0.9rem;
+    background-color:white;
+    font-weight: 600; 
+}
+.btn1:hover{
+    color: #ec2e3a;
+    border: 1px solid #ec2e3a;
+    background-color: #fcd9dc;
+    box-shadow: 0 0 8px #e80413;
+}
+.btn2:hover{
+    background-color: #ec2e3a;
+    box-shadow: 0 0 8px #e80413;
+    color: white;
+}
+.btn2{
+    position: relative;
+    font-weight: 500; 
+    color:white;
+    left:195%;
+    font-size: 0.9rem;
+    border-radius: 12px;
+    background-color:black;
+    font-weight: 600; 
+}
+@media screen and (max-width:320px){
+    .btn1{
+     left: 1%;
+    }
+    .btn2{
+       left: 1%;
+       }
+  }
+  @media screen and (max-width:375px){
+    .btn1{
+     left: 1%;
+    }
+    .btn2{
+       left: 1%;
+       }
+  }
+  @media screen and (max-width:425px){
+    .btn1{
+     left: 1%;
+    }
+    .btn2{
+       left: 1%;
+       }
+  }
+  @media screen and (max-width:768px){
+    .btn1{
+     left: 0%;
+    }
+    .btn2{
+       left: 0%;
+       }
+  }
+
+/* navbar end  */
+
+/* banner  */
+
+.bannerrow{
+    text-align: center;
+    
+}
+.titlebanner{
+    font-size: 5rem;
+    font-weight: bold;
+    color: black;
+}
+.parabanner{
+    line-height: 30px !important;
+    font-size: 1.1rem;
+}
+.m10,.m100{
+  font-weight: 700;
+}
+.m100{
+  margin-left: 5%;
+}
+@media (max-width:768px){
+  .titlebanner{
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-align: center;
+    color: black;
+  }
+  .parabanner
+  {
+        font-size: 1rem;
+    }
+    .m10{
+      font-size: 1.3rem;
+      font-weight: 700;
+    }
+    .m100{
+      font-size: 1.2rem;
+      margin-left: -10%;
+      font-weight: 700;
+    }
+    .tools{
+      font-size: 0.2rem;
+    }
+
+}
+
+.bannerbutton1{
+    background-color: black;
+    color: white;
+    border-radius: 15px;
+    width: 15%;
+}
+.bannerbutton1:hover{
+    background-color:#ec2e3a;
+    color: white;
+    border-radius: 15px;
+    border: .5px solid #ec2e3a;
+    width: 15%;
+    box-shadow: 1px 1px  1px 5px #fc7f87;
+}
+
+@media(max-width:768px) {
+    .bannerbutton1{
+        background-color: black;
+        color: white;
+        border-radius: 15px;
+        width: 75%;
+        display: list-item;
+
+
+    }  
+
+    .bannerbutton1:hover{
+        background-color:#ec2e3a;
+        color: white;
+        border-radius: 15px;
+        border: .5px solid #ec2e3a;
+        width: 75%;
+        display: list-item;
+        box-shadow: 1px 1px  1px 5px #fc7f87;
+    }
+}
+
+
+.bannerbutton2{
+    background-color:white;
+    color: black;
+    border-radius: 15px;
+    border: .5px solid lightgray;
+    width: 15%;
+}
+.bannerbutton2:hover{
+    background-color:#ffbbc0;
+    color:#ec2e3a;
+    border-radius: 15px;
+    border: 1px solid #fc7f87;
+    width: 15%;
+    box-shadow: 1px 1px  1px 5px #f5a1a6;
+
+}
+
+@media (max-width:768px) {
+    .bannerbutton2{
+        background-color:white;
+        color: black;
+        /* margin-top: 5%; */
+        align-items: center;
+        margin-top: 10%;
+        margin-left: -2% !important;
+        border-radius: 15px;
+        border: .5px solid lightgray;
+        width: 75%;
+        display: list-item;
+
+    }
+    .bannerbutton2:hover{
+        background-color:#ffbbc0;
+        color:#ec2e3a;
+        border-radius: 15px;
+        border: 1px solid #fc7f87;
+        width: 75%;
+        display: list-item;
+        box-shadow: 1px 1px  1px 5px #f5a1a6;
+    
+    }
+}
+
+
+/* .section 1 */
+/* .sec1div{
+    text-align: center;
+     position: relative; 
+    position: absolute;
+    left: 45%;
+    top: 112%;
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    background-color: #210d25;
+}
+
+.sec1row{
+background-color: #210d25;
+}
+
+.sec1col{
+text-align: center;
+
+}
+.coltittlese1{
+    color: white;
+    font-size: 5em;
+    font-weight: bold;
+}
+.parase1col{
+    color: white;
+    text-align: center;
+}
+
+@media screen and(max-width:320px) {
+    .sec1div{
+        /* display: block; 
+        text-align: center;
+        position: absolute;
+        left: 47%;
+        top: 180% !important;
+        width: 70px;
+        height: 70px;
+        border-radius: 50%;
+        background-color: #210d25;
+    }
+} */
+
+
+
+
+
+
+
+/* section 1 */
+
+
+.sec3{
+    background-color: #210d25;
+    }
+    .mil{
+        font-size:6rem ;
+        font-weight: 700;
+    }
+    @media (max-width:320px){
+        .mil{
+           margin-left: -10%;
+           font-size: 5rem;
+        }
+        
+      }
+    .mat{
+       color: white; 
+       font-weight: 700;
+       margin-left: 15%;
+    }
+    .mat2{
+        color: white; 
+        font-weight: 700;
+        margin-left: 20%;
+     }
+     .mat3{
+        color: white; 
+        font-weight: 700;
+     }
+     @media (max-width:768px){
+        .mat3{
+           /* margin-left: -2%; */
+           font-size: 1rem;
+        }
+      }
+      .hr{
+        border: 1px solid rgb(90, 85, 85);
+        margin-left:25%;
+      }
+      .semi{
+        margin-top: -6%;
+        margin-left: 45%;
+      }
+      .down{
+        margin-top: -80px;
+        margin-left: -6%;
+      }
+      @media (max-width: 768px) {
+        .semi {
+            margin-top: -10%; 
+            margin-left: 40%; 
+        }
+        .down {
+            margin-top: -60px; 
+            margin-left: -10%; 
+        }
+    }
+    @media (max-width: 576px) {
+        .semi {
+            margin-top: -20%;
+            margin-left: 33%; 
+        }
+        .down {
+            margin-top: -24%; 
+            margin-left: -23%; 
+        }
+    }
+    @media (max-width: 320px) {
+        .semi {
+            margin-top: -25%; 
+            margin-left: 29%; 
+        }
+        .down {
+            margin-top: -28%; 
+            margin-left: -27%; 
+        }
+    } 
+      .b1{
+        color: white;
+      }
+    
+
+
+
+      
+/* section 2 */
+
+.need{
+    background-color:#FFF4F6 ;
+}
+.got{
+    font-family: Graphik, sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    margin-top: 20%;
+    line-height: 18px;
+}
+.why{
+    font-size: 2rem;
+    line-height: 39px;
+    letter-spacing: -.8px;
+    font-weight: 600;
+    font-family: Graphik, sans-serif;
+}
+.box{
+    border-radius: 50%;
+    height: 9vh;
+    width: 9%;
+    background-color:#ffdfda ;
+}
+.con{
+margin-top: -9%;
+margin-left: 13%;
+font-size: 1rem;
+font-weight:500 ;
+}
+@media (max-width: 768px) {
+    .why {
+        font-size: 1.2rem; 
+    }
+    .box {
+        height: 12vh; 
+        width: 11%; 
+    }
+    .con {
+        margin-top: -5%; 
+        margin-left: 15%; 
+    }
+}
+
+@media (max-width: 576px) {
+    .why {
+        font-size: 1.2rem; 
+    }
+    .box {
+        height: 12vh; 
+        width: 19%; 
+        margin-left: -10%;
+        margin-top: 5%;
+    }
+    .con {
+        margin-top: -22%; 
+        margin-left: 15%; 
+        font-size: 0.8rem; 
+    }
+}
+.learn{
+    border-radius: 10px;
+    border: 1px solid rgb(178, 146, 146);
+    background:white;
+    font-weight: 600;
+    font-size: 0.9rem;
+}
+.sign{
+    background-color: black;
+    color: white;
+    font-weight: 600;
+    font-size: 0.9rem;
+    border-radius: 10px;
+}
+@media (max-width: 576px) {
+    .learn{
+        width: 95%;
+        
+    }
+    .sign{
+        width: 100%;
+    }
+}
+
+
+
+
+/* section 3 */
+.sec3col{
+    text-align: center;
+}
+.titlese3{
+    font-size: 2.5rem;
+    font-weight: 600;
+}
+@media (max-width:768px){
+  .titlese3{
+    font-size: 1.3rem;
+    font-weight: bold;
+    margin-bottom: 15%;
+  }
+  .every{
+    font-size: 1rem;
+  }
+}
+/* section 4 */
+/* .arrowse4{ */
+    /* border: .5px solid black; */
+/* } */
+@media (max-width:768px){
+  .post{
+    padding-top: 8%;
+    padding-bottom: 5%;
+    font-size: 1.4rem;
+    font-weight: bold;
+  }
+  .post2{
+    padding-top: 8%;
+    font-weight: bold;
+    padding-bottom: 5%;
+    font-size: 1.1rem;
+  }
+}
+.arrowse4:hover{
+border: .5px solid #ec2e3a;
+}
+
+/* section 5 */
+.conse5{
+    background-color: #210d25;
+color: white;
+}
+.sec5col{
+    text-align: center;
+}
+.titlese5{
+    font-size: 5em;
+    font-weight: bold;
+
+}
+@media (max-width:768px){
+  .titlese5{
+    width: 150%;
+    font-size: 1.7rem;
+    font-weight: bold;
+    margin-left: -20%;
+  }
+}
+
+.buttonse5{
+    border: .5px solid white;
+    border-radius: 10px;
+    font-weight: 500;
+    width: 16%;
+    background-color: white;
+    height: 10vh;
+}
+@media (max-width:768px){
+  .buttonse5{
+    width: 100%;
+    
+  }
+}
+.buttonse5:hover{
+    border: .5px solid #ec2e3a;
+    border-radius: 10px;
+    color: #ec2e3a;
+    background-color: #ffabb1;
+    box-shadow:1px 1px 5px 9px #f5a1a6;
+}
+
+
+@media screen and(max-width:320px) {
+    .titlese5{
+        font-size: 2em !important;
+        font-weight: bold;
+    
+    }
+
+
+}
+
+/* section6 */
+.color{
+    background-color: #541142;
+ }
+ .bod{
+    border: 1px solid rgb(125, 109, 109);
+    border-radius: 10px;
+    color: white;
+    /* font-weight: 600; */
+    background-color: transparent;
+ }
+ .bod:hover{
+    background-color: white;
+    color: black;
+ }
+ @media (max-width: 768px) {
+    .bod{ 
+        margin-left: 50%; 
+        transform: translate(-50%, -50%);
+    }
+    .bodd{ 
+        margin-left:-7%;
+        transform: translate(-50%, -50%);
+    }
+    .boddd{ 
+        margin-left:95%; 
+        transform: translate(-50%, -50%);
+    }
+    .title-3{  
+        font-size: 0.9rem;
+        font-weight: 800;
+    }
+    .moreposts{
+        margin-top: 20%;
+        width: 70%;
+        margin-bottom: 0%;
+    }
+}
+
+
+
+
+/* footer */
+.footer{
+    background-color: #210d25;
+    }
+    .for{
+        cursor: pointer;
+        color: white;
+    }
+    li{
+        list-style: none;
+    }
+    ul{
+        /* margin-left: -19%; */
+        line-height:30px;
+    }
+    a{
+        color: white;
+    }
+    a:hover{
+        color:#ec2e3a;
+    
+    }
+    p{
+        color: white;
+        font-size: 0.95rem;
+        font-weight: 400;
+    }
+    /* footer end */
+   </style>
+</head>
+<body>
+<!-- topbar -->
+<nav class="navbar navbar-light topbar">
+        
+  <span class="box1">10 OF IN 10 2023</span>
+  <p class="dis" style="color: white;">Discover our ten top startups across ten trending industries</p>
+
+  <form class="form-inline">
+    <button class="btn my-2 my-sm-0" type="submit">Learn More</button>
+  </form>
+</nav>
+<!-- topbar end -->
+<!-- navbar -->
+<nav class="navbar navbar-expand-lg navbar-light  sticky-top navbar-scroll  nav p-0 w-100  "id="navbar">
+  <a class="navbar-brand " href="./index.html">
+      wellfound<span style="color: rgb(243, 8, 8);" >:</span>
+  </a>
+  <button class="navbar-toggler " type="button" data-toggle="collapse" data-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarScroll">
+    <ul class="navbar-nav mr-auto my-2 my-lg-0 navbar-nav-scroll" style="max-height: 100px;">
+      <li class="nav-item ">
+        <a class="nav-link text-dark nav-link-ltr mt-2" href="#">Discover</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link ml-1 text-dark nav-link-ltr  mt-2" href="./for job seekers.html">Overview</a>
+      </li>
+      <li class="nav-item">
+        <a href="./for job seekers.html" class="nav-link ml-1 text-dark nav-link-ltr mt-2">For job seekers</a>
+      </li>
+      <li>
+          <a href="./login.html"><button  class="btn btn1 mr-3 mt-4  pt-2 pl-4 pr-4 ml-2" type="submit">Log In</button></a>
+      </li>
+      <li>
+        <a href="./signup.html"> <button class="btn btn2 mt-4 pl-3 pt-2 pr-4 ml-2" type="submit">Sign Up</button></a>
+     </li> 
+    </ul>
+  </div>
+</nav>
+<!-- navbar end -->  
+      <!-- banner  -->
+<div class="container-fluid p-2 ">
+    <div data-aos="fade-up">
+
+    <div class="row p-5 ">
+        <div class="col-xl-12 col-md-12 col-lg-12 col-sm-12   bannerrow">
+            <h1 class="titlebanner">You have a job. <br>
+                We have 10m+ job seekers.</h1>
+               <p class="parabanner mt-5 text-dark">Millions of startup-ready candidates, smart search for hard-to-find talent, and all the tools you need to hire. <br>
+                Sign up <b>for free</b>  in under 10 minutes.</p>
+                    <ul class="mt-5">
+                        <li class="d-inline "><a href="./signup.html"><button class="bannerbutton1 p-2 ">Sign up now</button></a></li>
+                        <li class="d-inline "><a href=""><button class="ml-5 bannerbutton2 p-2">Talk to us</button></a></li>
+
+                        
+
+                    </ul>
+        </div>
+        </div>
+    </div>
+</div>
+<!-- section 1 -->
+<div class="container-fluid  sec3">
+  <img class="semi d-inline"  src="./semicircle.png" alt=""><img class="down" src="./down-arrow.png" alt="">
+  <div class="row mt-5">
+    <div class="col mt-5 ml-5"><h1 class="mil ml-5 mt-5" style="color: white;">8M+</h1><h4 class="mat">Matches Made</h4>
+    </div>
+    <div class="col mt-5  ml-5"><h1 class="mil mt-5 ml-2" style="color: white;">150K+</h1><h4 class="mat2">Tech Jobs</h4></div>
+    <div class="col mt-5  ml-5"><h1 class="mil  mt-5 ml-2" style="color: white;">10M+</h1><h4 class="mat3">Startup Ready Candidates</h4></div>
+  </div>
+  <div class="row">
+    <div class="col"><div class="hr w-50 mt-5 mb-5"></div></div>
+</div>
+  <div class="row mt-5">
+    <div class="col mt-5">
+    <marquee behavior="alternate" width="90%" direction="left" height="150px" >
+      <img src="https://cdn.prod.website-files.com/64626a4a74818ca87606a2c4/64628b4827d042c25e14f604_Roblox.svg" height="40vh" alt="">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+      <img src="https://cdn.prod.website-files.com/64626a4a74818ca87606a2c4/64628b41cd93c0cf21c7ad8c_honey.svg" height="60vh" alt="">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+      <img src="https://cdn.prod.website-files.com/64626a4a74818ca87606a2c4/64628b3aba194301cb70efdc_Peloton.svg" height="60vh" alt="">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+      <img src="https://cdn.prod.website-files.com/64626a4a74818ca87606a2c4/64628b35c3ca49d758ff6160_ifttt.svg" height="40vh" alt="">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+      <img src="https://cdn.prod.website-files.com/64626a4a74818ca87606a2c4/64628b27cd93c0cf21c7819c_postmates.svg" height="60vh" alt="">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+      <img src="https://cdn.prod.website-files.com/64626a4a74818ca87606a2c4/64628b1df42b09be2956f7ca_Plaid.svg" height="60vh" alt="">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+      <img src="https://cdn.prod.website-files.com/64626a4a74818ca87606a2c4/64628b164ad24350a0c5aec6_Airtable.svg" height="40vh" alt="">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+      <img src="https://cdn.prod.website-files.com/64626a4a74818ca87606a2c4/64628af04ad24350a0c58787_Nerdwallet.svg" height="40vh" alt="">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+      <img src="https://cdn.prod.website-files.com/64626a4a74818ca87606a2c4/66841557e3a09dccd3f4ca2a_cruise.svg" height="40vh" alt="">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+      <img src="https://cdn.prod.website-files.com/64626a4a74818ca87606a2c4/64628b8dcd93c0cf21c82b32_Door%20Dash.svg" height="40vh" alt="">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+      </marquee>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col mb-5 text-center">
+      <p class="mb-5">Startups who used our platform</p>
+    </div>
+  </div>
+</div>
+<!-- section 2 -->
+<div class="container-fluid">
+    <div class="row border bg-light">
+        <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12 p-5">
+<video src="https://wellfound.com/images/gtm/GIF-RecruiterCuratedAndCuratedGlobal.mp4 " class="w-100 ml-5"></video>
+        </div>
+        <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12 p-5">
+            <h1  class="m10">10 million startup-ready candidates</h1>
+            <div class="mt-5 pb-5">
+
+              <div class="box text-center">
+                <img class="mt-2 ml-1" src="https://cdn.prod.website-files.com/64626a4a74818ca87606a29e/646574e6df60830cc7c2b88b_stairs-up.svg" height="39vh" alt="">
+              </div>
+              <div class="con w-75">
+                Connect directly with founders at top startups - no third <br> party recruiters allowed.
+              </div>
+
+              <div class="box text-center mt-5">
+                <img class="mt-2 ml-1" src="https://cdn.prod.website-files.com/64626a4a74818ca87606a29e/646574e63b04b79dd28c1ca3_books.svg" height="39vh" alt="">
+              </div>
+              <div class="con w-75">
+                Everything you need to know, all upfront. View salary, stock options, and more before applying.
+              </div>
+
+              <div class="box text-center mt-5">
+                <img class="mt-2 ml-1" src="https://cdn.prod.website-files.com/64626a4a74818ca87606a29e/646574e670c0dd6f22eee061_tap.svg" height="39vh" alt="">
+              </div>
+              <div class="con w-75">
+                Say goodbye to cover letters - your profile is all you need. One click to apply and you're done.
+              </div>
+              
+
+              <div class="box text-center mt-5 mb-1">
+                <img class="mt-2 ml-1" src="https://cdn.prod.website-files.com/64626a4a74818ca87606a29e/646574e7342fe2d5b929e48c_stars.svg" height="39vh" alt="">
+              </div>
+              <div class="con w-75 mb-5">
+                Unique jobs at startups and tech companies you can’t find anywhere else.
+              </div>
+             
+          </div>
+        </div>
+
+    </div>
+
+
+    <div class="row">
+      
+        <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12 p-5">
+            <h1 class="m100">Unique candidate <br> details you can't find <br> anywhere else</h1>
+            <div class="mt-5 pb-5">
+
+              <div class="box text-center">
+                <img class="mt-2 ml-1" src="https://cdn.prod.website-files.com/64626a4a74818ca87606a29e/646574e6df60830cc7c2b88b_stairs-up.svg" height="39vh" alt="">
+              </div>
+              <div class="con w-75">
+                Connect directly with founders at top startups - no third <br> party recruiters allowed.
+              </div>
+
+              <div class="box text-center mt-5">
+                <img class="mt-2 ml-1" src="https://cdn.prod.website-files.com/64626a4a74818ca87606a29e/646574e63b04b79dd28c1ca3_books.svg" height="39vh" alt="">
+              </div>
+              <div class="con w-75">
+                Everything you need to know, all upfront. View salary, stock options, and more before applying.
+              </div>
+
+              <div class="box text-center mt-5">
+                <img class="mt-2 ml-1" src="https://cdn.prod.website-files.com/64626a4a74818ca87606a29e/646574e670c0dd6f22eee061_tap.svg" height="39vh" alt="">
+              </div>
+              <div class="con w-75">
+                Say goodbye to cover letters - your profile is all you need. One click to apply and you're done.
+              </div>
+              
+
+              <div class="box text-center mt-5 mb-1">
+                <img class="mt-2 ml-1" src="https://cdn.prod.website-files.com/64626a4a74818ca87606a29e/646574e7342fe2d5b929e48c_stars.svg" height="39vh" alt="">
+              </div>
+              <div class="con w-75 mb-5">
+                Unique jobs at startups and tech companies you can’t find anywhere else.
+              </div>
+             
+          </div>
+        </div>
+
+        <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12 p-5">
+           <img src="https://cdn.prod.website-files.com/64626a4a74818ca87606a29e/64626a4a74818ca87606a318_AssessmentsProfile.png" class="w-100" alt="">
+                    </div>
+
+    </div>
+
+</div>
+<!-- section 3 -->
+<div class="contaier-fluid">
+    <div class="row border bg-light p-5 ">
+        <div class="col sec3col p-5">
+<h1 class="titlese3">All the tools you need to hire, all in one place.</h1>
+<p class="text-dark every">Get everything set up within <b> 10 minutes or less</b></p>
+        </div>
+    </div>
+</div>
+<!-- section 4 -->
+<div class="container-fluid p-5 ">
+  <div id="carouselExampleControls" class="carousel slide " data-ride="carousel">
+    <div class="carousel-inner ">
+        <!-- Slide 1 -->
+        <div class="carousel-item active">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6">
+                      <video src="https://wellfound.com/images/gtm/GIF-RecruiterSource.mp4 " class="w-100"></video> 
+                    </div>
+                    <div class="col-md-6">
+                        <h3 class="post">Post a job for free
+                        </h3>
+                        <p class="text-dark">Post to our job board and let the applications pour in. We’ll actively recommend your job to relevant candidates. Posting a job is free, and you can always promote it for more views.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Slide 2 -->
+        <div class="carousel-item">
+          <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                  <video src="https://wellfound.com/images/gtm/GIF-RecruiterSource.mp4 " class="w-100"></video> 
+                </div>
+                <div class="col-md-6">
+                    <h3 class="post2">Message candidates as much as you need
+                    </h3>
+                    <p class="text-dark">Reach out and pitch your opportunity to candidates or respond to applications, all for free. Messages are unlimited.</p>
+                </div>
+            </div>
+        </div>
+        </div>
+        <!-- Slide 3 -->
+        <div class="carousel-item">
+          <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                  <video src="https://wellfound.com/images/gtm/GIF-RecruiterSource.mp4 " class="w-100"></video> 
+                </div>
+                <div class="col-md-6">
+                    <h3 class="post2">Track candidates through a free ATS
+                    </h3>
+                    <p class="text-dark">Use our free applicant tracking system or integrate your own ATS within a few clicks. Schedule interviews, coordinate feedback, track a candidate’s progress, and manage multiple candidates across multiple roles.</p>
+                </div>
+            </div>
+        </div>
+        </div>
+
+        <!-- slide 4 -->
+        <div class="carousel-item">
+          <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                  <video src="https://wellfound.com/images/gtm/GIF-RecruiterSource.mp4 " class="w-100"></video> 
+                </div>
+                <div class="col-md-6">
+                    <h3 class="post2">Source from 10M startup-enthusiasts to find the perfect fit
+                    </h3>
+                    <p class="text-dark">Filter down our 10M candidates to find the most relevant match for your role. Use basic search filters, or upgrade to Recruit Pro for unlimited access to advanced candidate filters.</p>
+                </div>
+            </div>
+        </div>
+        </div>
+    </div>
+    <a class="carousel-control-prev  " href="#carouselExampleControls" role="button" data-slide="prev">
+        <span class="  p-3 mr-5  arrowse4" aria-hidden="true">
+          <svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" fill="currentColor" class="bi bi-arrow-left text-dark" viewBox="0 0 16 16">
+            <path fill-rule="evenodd" d="M15 8a.5.5 0 0 0-.5-.5H2.707l3.147-3.146a.5.5 0 1 0-.708-.708l-4 4a.5.5 0 0 0 0 .708l4 4a.5.5 0 0 0 .708-.708L2.707 8.5H14.5A.5.5 0 0 0 15 8"/>
+          </svg>
+        </span>
+        <span class="sr-only">Previous</span>
+    </a>
+    <a class="carousel-control-next  " href="#carouselExampleControls" role="button" data-slide="next">
+        <span class="   p-3 ml-5 arrowse4 " aria-hidden="true">
+          <svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" fill="currentColor" class="bi bi-arrow-right text-dark" viewBox="0 0 16 16">
+            <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8"/>
+          </svg>
+        </span>
+        <span class="sr-only">Next</span>
+    </a>
+</div>
+</div>
+<!-- section 5 -->
+<div class="container-fluid conse5 mt-5 ">
+<div data-aos="fade-up">
+
+    <div class="row  p-5">
+    <div class="col p-5 sec5col">
+<h1 class="titlese5">Join the 100K+ startups building their teams with us</h1>
+<a href="./signup.html"><button class=" p-3 buttonse5 mt-3">
+    <b>sign up now</b> 
+</button></a>
+    </div>
+</div>
+</div>
+
+<hr class="w-75 mt-2" style="background-color: white;">
+<div data-aos="fade-up">
+
+    <div class="row p-5">
+
+        <div class="col p-5 ">
+          <marquee behavior="alternate" direction="left">
+            <ul>
+                <li class="d-inline ml5">
+                    <img src="https://cdn.prod.website-files.com/64626a4a74818ca87606a2c4/64628b41cd93c0cf21c7ad8c_honey.svg" alt="">
+                </li>
+                <li class="d-inline ml-5">
+                    <img src="https://cdn.prod.website-files.com/64626a4a74818ca87606a2c4/64628b3aba194301cb70efdc_Peloton.svg" alt="">
+                </li>
+                <li class="d-inline ml-5">
+                    <img src="https://cdn.prod.website-files.com/64626a4a74818ca87606a2c4/64628b35c3ca49d758ff6160_ifttt.svg" alt="">
+                </li>
+                <li class="d-inline ml-5">
+                    <img src="https://cdn.prod.website-files.com/64626a4a74818ca87606a2c4/64628af04ad24350a0c58787_Nerdwallet.svg" alt="">
+                </li>
+                <li class="d-inline ml-5">
+                    <img src="https://cdn.prod.website-files.com/64626a4a74818ca87606a2c4/64628b164ad24350a0c5aec6_Airtable.svg" alt="">
+                </li>
+                <li class="d-inline ml-5">
+                    <img src="https://cdn.prod.website-files.com/64626a4a74818ca87606a2c4/64628b1df42b09be2956f7ca_Plaid.svg" alt="">
+                </li>
+                <li class="d-inline ml5">
+                    <img src="https://cdn.prod.website-files.com/64626a4a74818ca87606a2c4/64628b41cd93c0cf21c7ad8c_honey.svg" alt="">
+                </li>
+                <li class="d-inline ml-5">
+                    <img src="https://cdn.prod.website-files.com/64626a4a74818ca87606a2c4/64628b3aba194301cb70efdc_Peloton.svg" alt="">
+                </li>
+                <li class="d-inline ml-5">
+                    <img src="https://cdn.prod.website-files.com/64626a4a74818ca87606a2c4/64628b35c3ca49d758ff6160_ifttt.svg" alt="">
+                </li>
+                <li class="d-inline ml-5">
+                    <img src="https://cdn.prod.website-files.com/64626a4a74818ca87606a2c4/64628af04ad24350a0c58787_Nerdwallet.svg" alt="">
+                </li>
+                <li class="d-inline ml-5">
+                    <img src="https://cdn.prod.website-files.com/64626a4a74818ca87606a2c4/64628b164ad24350a0c5aec6_Airtable.svg" alt="">
+                </li>
+                <li class="d-inline ml-5">
+                    <img src="https://cdn.prod.website-files.com/64626a4a74818ca87606a2c4/64628b1df42b09be2956f7ca_Plaid.svg" alt="">
+                </li>
+              
+            </ul>
+          </marquee> 
+        </div>
+    </div>
+</div>
+</div>
+<!-- section 6 -->
+<div class="container-fluid ">
+  <div class="row color ">
+    <div class="col mt-5 mb-5"></div>
+    <div class="col mt-5 mb-5"></div>
+    <div class="col mt-5 mb-5"></div>
+    <div class="col mt-5 mb-5"><button class=" p-2 pl-5 pr-5 bod bodd">Jobs</button></div>
+    <div class="col mt-5 mb-5"><button class=" p-2 pl-5 pr-5 bod">Featured</button></div>
+    <div class="col mt-5 mb-5"><button class=" p-2 pl-5 pr-5 bod">Remote</button></div>
+    <div class="col mt-5 mb-5"><a href="./customer.html"><button class=" p-2 pl-5 pr-5 bod">Customers</button></a></div>
+    <div class="col mt-5 mb-5"><a href="./pricing.html"><button class=" p-2 pl-5 pr-5 bod boddd">Pricing</button></a></div>
+    <div class="col mt-5 mb-5"></div>
+    <div class="col mt-5 mb-5"></div>
+    <div class="col mt-5 mb-5"></div>
+  </div>
+</div>
+     <!-- footer -->
+      <div class="container-fulid footer" style=" border: 1px solid #210d25;" >
+        <div class="row mt-5">
+          <div class="col-xl-6 col-lg-4 col-md-6 col-sm-12 mt-5">
+            <img class="mt-4 ml-5" src="https://cdn.prod.website-files.com/64626a4a74818ca87606a29e/64629216e7489c82412a194a_Primary%20Logo%20-%20Black.svg" alt="">
+          </div>
+          <div class="col-xl-2 col-lg-4 col-md-6 col-sm-12 mt-5" >
+            <h4 class="for mt-4 ml-4">
+              For Candidates
+            </h4>
+            <ul class="mt-3">
+              <li class="">
+                <a class="" href="#">Overview</a>
+              </li>
+              <li class="">
+                <a class="" href="#">Startup Jobs</a>
+              </li>
+              <li class="">
+                <a class="" href="#">Web3 Jobs</a>
+              </li>
+              <li class="">
+                <a class="" href="#">Featured</a>
+              </li>
+              <li class="">
+                <a class="" href="#">Salary Calculator</a>
+              </li>
+              <li class="">
+                <a class="" href="#">Startup Hiring Data</a>
+              </li>
+              <li class="">
+                <a class="" href="#">Tech Startups</a>
+              </li>
+              <li class="">
+                <a class="" href="#">Remote</a>
+              </li>
+            </ul>
+          </div>
+          <div class="col-xl-2 col-lg-2 col-md-6 col-sm-12 mt-5">
+            <h4 class="for mt-4 ml-4">
+              For Recruiters
+            </h4>
+            <ul class="mt-3">
+              <li class="">
+                <a class="" href="#">Overview</a>
+              </li>
+              <li class="">
+                <a class="" href="#">Recruit Pro</a>
+              </li>
+              <li class="">
+                <a class="" href="#">Curated</a>
+              </li>
+              <li class="">
+                <a class="" href="#">RecruiterCloud</a>
+              </li>
+              <li class="">
+                <a class="" href="#">Hire Developers</a>
+              </li>
+              <li class="">
+                <a class="" href="#">Pricing</a>
+              </li>
+            </ul>
+          </div>
+          <div class="col-xl-2 col-lg-2 col-md-6  col-sm-12 mt-5">
+            <h4 class="for mt-4 ml-4">
+              Company
+            </h4>
+            <ul class="mt-3">
+              <li class="">
+                <a class="" href="#">About</a>
+              </li>
+              <li class="">
+                <a class="" href="#">AngelList Venture</a>
+              </li>
+              <li class="">
+                <a class="" href="#">Help</a>
+              </li>
+              <li class="">
+                <a class="" href="#">Blog</a>
+              </li>
+              <li class="">
+                <a class="" href="#">Terms & Risks</a>
+              </li>
+              <li class="">
+                <a class="" href="#">Privacy & Cookies</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="row mt-3">
+          <div class="col-xl-6 mt-5 ">
+            <div class="ml-5">
+              <img  class="" src="./twitter (1).png" alt="">
+              <img class="ml-3" src="./instagram.png" alt="">
+              <p class="d-inline ml-3">Copyright © 2024 Wellfound (formerly AngelList Talent). All rights reserved.</p>
+          </div>
+          </div>
+          <div class="col-xl-6 mt-5">
+            <p class="ml-2">Browse by:  <a  href=""> <ins>Jobs</ins></a>, <a href=""><ins>Remote Jobs</ins></a>, <a href=""><ins> Locations</ins></a>, <a href=""><ins> Startups</ins></a>, <a href=""><ins>Startups Hiring</ins></a>, <a href=""><ins>Industries</ins></a>,<a href=""><ins>Tech Hubs</ins></a></p>
+          </div>
+        </div>
+    </div>
+     <!-- footer end-->
+</body>
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<script>
+  AOS.init();
+  window.addEventListener('scroll', () => {
+       const navbar = document.getElementById('navbar');
+       if (window.scrollY > 100) {
+         navbar.classList.add('scrolled');
+       } else {
+         navbar.classList.remove('scrolled');
+       }
+     });
+ </script>
+<script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.min.js" integrity="sha384-+sLIOodYLS7CIrQpBjl+C7nPvqq+FbNUBDunl/OZv93DB7Ln/533i8e/mZXLi/P+" crossorigin="anonymous"></script>
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+
+</html>

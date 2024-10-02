@@ -1,0 +1,859 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="C:\Users\DELL\Desktop\devtrain\project 4\log.svg">
+
+    <title>Pricing | wellfound (formerly Angel/.List Talent) - Startup Job Search</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+   <link rel="stylesheet" href="/wellfound/pricing/pricingstyle.css">
+   <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+   <link rel="stylesheet" href="./testimonial.css">
+   <style>
+   /* topbar */
+body{
+    overflow-x: hidden;
+    font-family: Graphik, sans-serif;
+}
+.topbar{
+    width: 100%;
+   background-color:#210d25 ; 
+   padding-bottom: 0%;
+}
+.dis{
+    margin-left: 36%;
+    margin-top: 1%;
+}
+.box1{
+    position:absolute;
+    color: #fff;
+    letter-spacing: .48px;
+    text-transform: uppercase;
+    background-color: #e9357b;
+    border-radius: 6px;
+    padding: 6px 8px;
+    margin-left: 24%;
+    margin-top: 0%;
+    font-size: 12px;
+    font-weight: 800;
+    line-height: 100%;
+}
+.btn{
+    background-color: white;
+    color: black;
+    border-radius: 6px;
+    font-weight: 600;
+}
+.btn:hover{
+color:#ec2e3a;
+}
+.form-inline{
+    margin-left: 68%;  
+    margin-top: -4%;  
+    }
+    @media (max-width: 768px) {
+        .dis {
+            margin-left: 20%; 
+            margin-top: 2%; 
+        }
+        
+        .box1 {
+            margin-left: 2%; 
+        }
+        
+        .form-inline {
+            margin-left: 80%;
+            margin-top: -7%; 
+        }
+    }
+    
+    /* Media query for screens smaller than 554px (phones) */
+    @media (max-width: 554px) {
+        .dis {
+            text-align: center;
+            margin-left: 5%; 
+            margin-top: 8%; 
+        }
+        
+        .box1 {
+            margin-top: -27%;
+            margin-left: 30%;
+        }
+        
+        .form-inline {
+            margin-left: 40%; 
+            margin-top: -7%; 
+        }
+    }
+    @media (max-width: 425px) {
+        .dis {
+            text-align: center;
+            margin-left: 5%; 
+            margin-top: 10%; 
+        }
+        
+        .box1 {
+            margin-top: -30%;
+            margin-left: 32%; 
+        }
+        
+        .form-inline {
+            margin-left: 40%; 
+            margin-top: -6%; 
+        }
+    }
+/* topbar end */
+
+/* navbar */
+.navbar-scroll {
+    background-color: transparent;
+    transition: background-color 0.5s ease-in-out;
+  }
+
+  .navbar-scroll.scrolled {
+    box-shadow: 4px 4px 4px 4px grey;
+  }
+.nav{
+    background-color: white;
+}
+ .navbar-brand{
+    font-size: 2.4rem;
+    margin-left: 5%;
+    font-weight: 700;
+}
+@media (max-width:320px){
+    .navbar-brand{
+     margin-left: 3%;
+     font-size:1.9rem;
+    }
+  }
+  @media (max-width:370px){
+    .navbar-brand{
+     margin-left: 3%;
+     font-size:1.7rem;
+    }
+  }
+
+.navbar-nav{
+ position: relative;
+ left: 16%;
+}
+@media (max-width:320px){
+    .navbar-nav{
+     left: 35%;
+    }
+  }
+  /* @media screen and (max-width:768px){
+    .navbar-nav{
+     left: 50%;
+    }
+  } */
+
+.nav-link{
+font-weight: 500;
+font-size: 16px;
+text-decoration: none;
+color: black;
+padding: 20px 0px;
+margin: 0px 20px;
+display: inline-block;
+position: relative;
+}
+.nav-link:hover{
+color: #124E66 !important;
+opacity: 1;
+}
+.nav-link::before {
+transition: 300ms;
+height: 5px;
+content: "";
+position: absolute;
+background-color: #124E66;
+}
+.nav-link-ltr::before {
+width: 0%;
+bottom: 10px;
+}
+.nav-link-ltr:hover::before {
+ width: 100%;
+}
+.btn1{
+    position: relative;
+    border: 1px solid #7b898f;
+    border-radius: 12px;
+    color:black;
+    left: 185%;
+    font-size: 0.9rem;
+    background-color:white;
+    font-weight: 600; 
+}
+.btn1:hover{
+    color: #ec2e3a;
+    border: 1px solid #ec2e3a;
+    background-color: #fcd9dc;
+    box-shadow: 0 0 8px #e80413;
+}
+.btn2:hover{
+    background-color: #ec2e3a;
+    box-shadow: 0 0 8px #e80413;
+    color: white;
+}
+.btn2{
+    position: relative;
+    font-weight: 500; 
+    color:white;
+    left:195%;
+    font-size: 0.9rem;
+    border-radius: 12px;
+    background-color:black;
+    font-weight: 600; 
+}
+@media screen and (max-width:320px){
+    .btn1{
+     left: 1%;
+    }
+    .btn2{
+       left: 1%;
+       }
+  }
+  @media screen and (max-width:375px){
+    .btn1{
+     left: 1%;
+    }
+    .btn2{
+       left: 1%;
+       }
+  }
+  @media screen and (max-width:425px){
+    .btn1{
+     left: 1%;
+    }
+    .btn2{
+       left: 1%;
+       }
+  }
+  @media screen and (max-width:768px){
+    .btn1{
+     left: 0%;
+    }
+    .btn2{
+       left: 0%;
+       }
+  }
+
+/* navbar end  */
+
+
+/* banner  */
+.bannercol{
+text-align: center;
+margin-top: 5%;
+
+
+}
+.pban{
+    font-weight: 600;
+    color: black;
+
+}
+.titlebanner{
+    font-weight: bold;
+    color: black;
+    font-size: 5em;
+}
+@media screen and(max-width:320px) {
+    .titlebanner{
+        font-size: 2em !important;
+        font-weight: bold;
+       
+    }
+  
+}
+.parabanner{
+    font-size: 1.5em;
+    font-weight: 400;
+    color: black;
+}
+@media (max-width: 768px) {
+    
+    .titlebanner{
+        font-size: 1.7em;
+    }
+    .parabanner{
+    font-size: 1em;
+}
+}
+
+/* section 1 */
+.sec1{
+border-radius: 12px;
+}
+.butonse1{
+    border-radius: 10px;
+}
+.butonse1:hover{
+    background-color: #ec2e3a !important;
+    border: .5px solid #ec2e3a;
+    box-shadow:1px 1px 1px 5px #f5a1a6;
+    color:white;
+}
+.buton2se1{
+    border: .5px solid lightgray;
+
+    border-radius: 10px;
+}
+.buton2se1:hover{
+    border: .5px solid #ec2e3a;
+    box-shadow:1px 1px 1px 5px #f5a1a6;
+    background-color: #fcc8cc;
+    color: #ec2e3a  ;
+}
+.txt{
+    font-size: small;
+    color: black;
+}
+
+/* section 2 */
+/* .colse2{
+    border: .5px solid #ec2e3a;
+    border-radius: 10px;
+    background-color: #ffe4e7;
+}
+.imgbox{
+    display: flex;
+    align-content: center;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background-color: #fcc8cc;
+} */
+
+
+/* section3 */
+.se3col{
+    text-align: center;
+    font-weight: bold;
+}
+/* section 4 */
+.color{
+    background-color: #541142;
+ }
+ .bod{
+    border: 1px solid rgb(125, 109, 109);
+    border-radius: 10px;
+    color: white;
+    /* font-weight: 600; */
+    background-color: transparent;
+ }
+ .bod:hover{
+    background-color: white;
+    color: black;
+ }
+ @media (max-width: 768px) {
+    .bod{ 
+        margin-left: 50%; 
+        transform: translate(-50%, -50%);
+    }
+    .bodd{ 
+        margin-left:-7%;
+        transform: translate(-50%, -50%);
+    }
+    .boddd{ 
+        margin-left:95%; 
+        transform: translate(-50%, -50%);
+    }
+    .title-3{  
+        font-size: 0.9rem;
+        font-weight: 800;
+    }
+    .moreposts{
+        margin-top: 20%;
+        width: 70%;
+        margin-bottom: 0%;
+    }
+}
+
+/* footer */
+.socail{
+cursor: pointer;
+}
+.footer{
+    background-color: #210d25;
+    }
+    .for{
+        cursor: pointer;
+        color: white;
+    }
+    li{
+        list-style: none;
+    }
+    ul{
+        /* margin-left: -19%; */
+        line-height:30px;
+    }
+    a{
+        color: white;
+    }
+    a:hover{
+        color:#ec2e3a;
+    
+    }
+    p{
+        color: white;
+        font-size: 0.95rem;
+        font-weight: 400;
+    }
+    
+    /* footer end */
+   </style>
+</head>
+<body>
+    <!-- topbar -->
+    <nav class="navbar navbar-light topbar">
+        
+        <span class="box1">10 OF IN 10 2023</span>
+        <p class="dis" style="color: white;">Discover our ten top startups across ten trending industries</p>
+     
+        <form class="form-inline">
+          <button class="btn my-2 my-sm-0" type="submit">Learn More</button>
+        </form>
+      </nav>
+     <!-- topbar end -->
+    <!-- navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light  sticky-top navbar-scroll  nav p-0 w-100  "id="navbar">
+        <a class="navbar-brand " href="./index.html">
+            wellfound<span style="color: rgb(243, 8, 8);" >:</span>
+        </a>
+        <button class="navbar-toggler " type="button" data-toggle="collapse" data-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarScroll">
+          <ul class="navbar-nav mr-auto my-2 my-lg-0 navbar-nav-scroll" style="max-height: 100px;">
+            <li class="nav-item ">
+              <a class="nav-link text-dark nav-link-ltr mt-2" href="#">Discover</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link ml-1 text-dark nav-link-ltr  mt-2" href="./for job seekers.html">Overview</a>
+            </li>
+            <li class="nav-item">
+              <a href="./for job seekers.html" class="nav-link ml-1 text-dark nav-link-ltr mt-2">For job seekers</a>
+            </li>
+            <li>
+                <a href="./login.html"><button  class="btn btn1 mr-3 mt-4  pt-2 pl-4 pr-4 ml-2" type="submit">Log In</button></a>
+            </li>
+            <li>
+              <a href="./signup.html"> <button class="btn btn2 mt-4 pl-3 pt-2 pr-4 ml-2" type="submit">Sign Up</button></a>
+           </li> 
+          </ul>
+        </div>
+      </nav>
+    <!-- navbar end -->
+
+      <!-- banner  -->
+       <div class="container-fluid">
+        <div data-aos="fade-up">
+        <div class="row p-5">
+            <div class="col bannercol">
+                <h6 class="pban ">pricing</h6>
+                <p class="titlebanner">From pre-seed to post-IPO</p>
+                <p class="parabanner">We have options to fit your team's needs</p>
+            </div>
+        </div>
+       </div>
+    </div>
+
+
+    <!-- section 1 -->
+     <div class="container-fluid">
+        <div class="row p-3 border bg-light">
+            <div class="col p-5  border sec1  bg-white">
+<h5>
+    Access
+</h5>
+<h3 class="mt-3">
+    free
+</h3>
+<ul class="mt-4">
+    <li>Post jobs</li>
+    <li>Review applicants</li>
+    <li>ATS integration</li>
+    <li>Track build-in ATS</li>
+    <li>Limited access to Source</li>
+</ul>
+<ul class="mt-5">
+    <li class="d-inline">
+        <button class="p-2 butonse1 mr-2" style="background-color: black; color: white;">sign up now</button>
+    </li>
+    <li class="d-inline">
+        <button class="p-2 buton2se1 ">learn More</button>
+
+    </li>
+
+</ul>
+
+            </div>
+            <div class="col p-5  ml-2 border border-warning sec1 bg-light">
+                <h5>
+                    Recruit Pro
+                </h5>
+                <h3 class="mt-3">
+                    $499
+                   <span style="font-size: large; font-weight: 100;">
+                    / month
+                   </span> 
+                </h3>
+                
+                <ul class="mt-4">
+                    <li style="list-style: none;"><b>Includes all free features and: </b></li>
+                    <li>Advanced search filters</li>
+                    <li>Pitch templates</li>
+                    <li>Resumes & social links</li>
+                    <li>Instant scheduling</li>
+                </ul>
+                <ul class="mt-5">
+                    <li class="d-inline">
+                        <button class="p-2 butonse1 mr-2" style="background-color: black; color: white;">sign up now</button>
+                    </li>
+                    <li class="d-inline">
+                        <button class="p-2 buton2se1 ">learn More</button>
+                
+                    </li>
+                
+                </ul>
+            </div>
+            <div class="col p-5 ml-2 border sec1 bg-white ">
+                <h5>
+                    Unlimited Access
+                </h5>
+                <h3 class="mt-3">
+                    Custom
+                   
+                </h3>
+                <p class="txt">Need access to unlimited Curated candidates?</p>
+                <p class="txt">Access unlimited hand-picked, qualified, and ready to interview candidates.</p>
+             <p class="txt"> Talk to our team to configure a custom package for your team.</p>
+
+                        <button class="p-2 butonse1 mt-4 " style="background-color: black; color: white;">schedule a call</button>
+                   
+            </div>
+        </div>
+     </div>
+
+     <!-- section 2 -->
+     
+     <div class="testimonial-slider">
+        <p class="ml-4 mt-5 quote">Quotes</p>
+        <h1 class="head10 ml-4 text-dark">From our users</h1>
+        <div class="testimonial-container">
+            <div class="testimonial-card mt-5"style="background-color: #fff4f6;">
+               <div class="img2 ml-3 mt-3"><img class="img3" src="https://cdn.prod.website-files.com/64626a4a74818ca87606a29e/6465787f421948a5b1f75eb8_quote.svg" alt=""></div>
+                <p class="testimonial-name ml-4 mt-4 mb-3" style="color: black;">I can't imagine my day to day without this platform. Life would be a lot more difficult.</p>
+            </div>
+            <div class="testimonial-card mt-5"style="background-color: #fff4f6;">
+                <div class="img2 ml-3 mt-3"><img class="img3" src="https://cdn.prod.website-files.com/64626a4a74818ca87606a29e/6465787f421948a5b1f75eb8_quote.svg" alt=""></div>
+                <p class="testimonial-name ml-4 mt-4 mb-3" style="color: black;">I got my tech job on Wellfound (AngelList Talent) 4 years ago and I'm still happy! Pays well, great culture, and unlimited PTO.</p>
+            </div>
+            <div class="testimonial-card mt-5 " style="background-color: #fff4f6;">
+                <div class="img2 ml-3 mt-3"><img class="img3" src="https://cdn.prod.website-files.com/64626a4a74818ca87606a29e/6465787f421948a5b1f75eb8_quote.svg" alt=""></div>
+                <p class="testimonial-name ml-4 mt-4 mb-3" style="color: black;">Half of the offers I give are sourced from Wellfound (AngelList Talent). It's the best product for anyone looking for startup talent.</p>
+            </div>
+             <div class="testimonial-card mt-5 ml-5" style="background-color: #fff4f6;">
+                <div class="img2 ml-3 mt-3"><img class="img3" src="https://cdn.prod.website-files.com/64626a4a74818ca87606a29e/6465787f421948a5b1f75eb8_quote.svg" alt=""></div>
+                <p class="testimonial-name ml-4 mt-4 mb-3" style="color: black;">I love Wellfound (AngelList Talent). I got my current job at a startup entirely through the site last year - it's super easy to use and I love the UI.</p>
+            </div>
+            <!-- Add more testimonial cards as needed -->
+        </div>
+        <button class="slider-button prev bg-transparent b1 " onclick="prevSlide()"><img class="w-75" src="./left-arrow.png" alt=""></button>
+        <button class="slider-button next bg-transparent b2" onclick="nextSlide()"><img class="w-75" src="./right-arrow (1).png" alt=""></button>
+      </div>
+
+      <!-- section 3 -->
+<div class="container">
+    <div class="row p-5">
+        <div class="col  se3col">
+            <h1>FAQ</h1>
+            <div class="container">
+                <div class="accordion" id="accordionExample">
+                    <div class="card border">
+                      <div class="card-header" id="headingOne">
+                        <h2 class="mb-0 ">
+                          <button class="btn btn-link btn-block text-dark text-left" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                            How do i started hirring on Wellfound(Angellist Talent)?
+                          </button>
+                        </h2>
+                      </div>
+                  
+                      <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
+                        <div class="card-body">
+                            <p style="font-weight: lighter; color: black;">  Getting started on AngelList Talent is easy - simply sign up and you'll immediately be onboarded onto our Recruit Pro product. You’ll be prompted to find your company profile in our startup database, or create a new one. From there, you’ll be able to post jobs and source candidates with the best tools in the game. Get candidates in your pipeline and track them with our low-touch ATS system to keep your process agile & organized.</p>
+                          
+<p style="font-weight: lighter;color: black;">
+                            You can also try out our advanced sourcing tier,  Curated, where we <b>pre-vet and highlight the top 20% of candidates</b> that fit your criteria, taking the heavy lifting off of your team. Let the right candidates fall into your inbox & hire the best of the best at lightening speed.
+                        </p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="card mt-5 border">
+                      <div class="card-header" id="headingTwo">
+                        <h2 class="mb-0 ">
+                          <button class="btn btn-link btn-block  text-dark text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                            How does curested work?
+                          </button>
+                        </h2>
+                      </div>
+                      <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+                        <div class="card-body">
+                      <p style="font-weight: lighter;color: black;">
+                        Curated is a premium add-on that gives you direct access to top software engineers, designers, product managers, data scientists, and sales employees across the US, including top talent in San Francisco, New York, and Los Angeles.
+                      </p>
+                      <p style="font-weight: lighter; color: black;text-align: left;">
+                        We ensure you stay ahead of the competition by...
+                        <ol style="font-weight: lighter;text-align: left;color: black;" >
+                            <li>Analyzing intent signals to invite relevant candidates to Curated before they hit the market</li>
+                            <li>
+                                Personally vetting candidates to ensure they are high caliber and ready to interview immediately
+                            </li>
+                            <li>Showcasing you new candidates every Tuesday and Thursday.</li>
+                            <li>
+                                Getting commitment from candidates ahead of time that they'll respond within a week
+                            </li>
+                        </ol>
+                      </p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="card mt-5 border">
+                      <div class="card-header" id="headingThree">
+                        <h2 class="mb-0">
+                          <button class="btn btn-link btn-block text-dark text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                            What is difference between A-List and Curated?
+                          </button>
+                        </h2>
+                      </div>
+                      <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+                        <div class="card-body">
+                          <p style="font-weight: lighter;color: black;">
+                            They're the same thing! We formally renamed A-List to Curated in June 2020. Curated now serves the same purpose and more, including expansion into non-US markets with Curated Global.
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="card mt-5 border">
+                        <div class="card-header" id="headingFour">
+                          <h2 class="mb-0">
+                            <button class="btn btn-link btn-block text-dark text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                              How do I access to my team's company profile?
+                            </button>
+                          </h2>
+                        </div>
+                        <div id="collapseFour" class="collapse" aria-labelledby="headingFour" data-parent="#accordionExample">
+                          <div class="card-body">
+                            <p style="font-weight: lighter;color: black;">
+                                Sign up to create a free account. Select your company from our startup database, and get access by authenticating with your work email. If you are having issues, please reach out to talent@wellfound.com.
+                            </p>
+                          </div>
+                        </div>
+                      </div><div class="card mt-5 border">
+                        <div class="card-header" id="headingFive">
+                          <h2 class="mb-0">
+                            <button class="btn btn-link btn-block text-dark text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+                              What ATS providers does the recurit product integrate with?
+                            </button>
+                          </h2>
+                        </div>
+                        <div id="collapseFive" class="collapse" aria-labelledby="headingFive" data-parent="#accordionExample">
+                          <div class="card-body">
+                            <p style="font-weight: lighter;color: black;">
+                                We currently integrate with Greenhouse, Lever, Ashby, and Workable. If you have requests for other ATS providers, please let us know at talent@wellfound.com.
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+
+                  </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+ <!-- section 4 -->
+ <div class="container-fluid ">
+  <div class="row color ">
+    <div class="col mt-5 mb-5"></div>
+    <div class="col mt-5 mb-5"></div>
+    <div class="col mt-5 mb-5"></div>
+    <div class="col mt-5 mb-5"><button class=" p-2 pl-5 pr-5 bod bodd">Jobs</button></div>
+    <div class="col mt-5 mb-5"><button class=" p-2 pl-5 pr-5 bod">Featured</button></div>
+    <div class="col mt-5 mb-5"><button class=" p-2 pl-5 pr-5 bod">Remote</button></div>
+    <div class="col mt-5 mb-5"><a href="./customer.html"><button class=" p-2 pl-5 pr-5 bod">Customers</button></a></div>
+    <div class="col mt-5 mb-5"><a href="./pricing.html"><button class=" p-2 pl-5 pr-5 bod boddd">Pricing</button></a></div>
+    <div class="col mt-5 mb-5"></div>
+    <div class="col mt-5 mb-5"></div>
+    <div class="col mt-5 mb-5"></div>
+  </div>
+</div>
+
+<!-- footer  -->
+<div class="container-fulid  footer " style=" border: 1px solid #210d25;" >
+    <div class="row mt-5">
+      <div class="col-xl-6 col-lg-4 col-md-6 col-sm-12 mt-5">
+        <img class="mt-4 ml-5" src="https://cdn.prod.website-files.com/64626a4a74818ca87606a29e/64629216e7489c82412a194a_Primary%20Logo%20-%20Black.svg" alt="">
+      </div>
+      <div class="col-xl-2 col-lg-4 col-md-6 col-sm-12 mt-5" >
+        <h4 class="for mt-4 ml-4">
+          For Candidates
+        </h4>
+        <ul class="mt-3">
+          <li class="">
+            <a class="" href="#">Overview</a>
+          </li>
+          <li class="">
+            <a class="" href="#">Startup Jobs</a>
+          </li>
+          <li class="">
+            <a class="" href="#">Web3 Jobs</a>
+          </li>
+          <li class="">
+            <a class="" href="#">Featured</a>
+          </li>
+          <li class="">
+            <a class="" href="#">Salary Calculator</a>
+          </li>
+          <li class="">
+            <a class="" href="#">Startup Hiring Data</a>
+          </li>
+          <li class="">
+            <a class="" href="#">Tech Startups</a>
+          </li>
+          <li class="">
+            <a class="" href="#">Remote</a>
+          </li>
+        </ul>
+      </div>
+      <div class="col-xl-2 col-lg-2 col-md-6 col-sm-12 mt-5">
+        <h4 class="for mt-4 ml-4">
+          For Recruiters
+        </h4>
+        <ul class="mt-3">
+          <li class="">
+            <a class="" href="#">Overview</a>
+          </li>
+          <li class="">
+            <a class="" href="#">Recruit Pro</a>
+          </li>
+          <li class="">
+            <a class="" href="#">Curated</a>
+          </li>
+          <li class="">
+            <a class="" href="#">RecruiterCloud</a>
+          </li>
+          <li class="">
+            <a class="" href="#">Hire Developers</a>
+          </li>
+          <li class="">
+            <a class="" href="#">Pricing</a>
+          </li>
+        </ul>
+      </div>
+      <div class="col-xl-2 col-lg-2 col-md-6  col-sm-12 mt-5">
+        <h4 class="for mt-4 ml-4">
+          Company
+        </h4>
+        <ul class="mt-3">
+          <li class="">
+            <a class="" href="#">About</a>
+          </li>
+          <li class="">
+            <a class="" href="#">AngelList Venture</a>
+          </li>
+          <li class="">
+            <a class="" href="#">Help</a>
+          </li>
+          <li class="">
+            <a class="" href="#">Blog</a>
+          </li>
+          <li class="">
+            <a class="" href="#">Terms & Risks</a>
+          </li>
+          <li class="">
+            <a class="" href="#">Privacy & Cookies</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <div class="row mt-3">
+      <div class="col-xl-6 mt-5 ">
+        <div class="ml-5">
+          <img  class="socail" src="./twitter (1).png" alt="">
+          <img class="ml-3 socail" src="./instagram.png" alt="">
+          <p class="d-inline ml-3">Copyright © 2024 Wellfound (formerly AngelList Talent). All rights reserved.</p>
+      </div>
+      </div>
+      <div class="col-xl-6 mt-5">
+        <p class="ml-2">Browse by:  <a  href=""> <ins>Jobs</ins></a>, <a href=""><ins>Remote Jobs</ins></a>, <a href=""><ins> Locations</ins></a>, <a href=""><ins> Startups</ins></a>, <a href=""><ins>Startups Hiring</ins></a>, <a href=""><ins>Industries</ins></a>,<a href=""><ins>Tech Hubs</ins></a></p>
+      </div>
+    </div>
+</div>
+
+
+    
+</body>
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<script>
+  AOS.init();
+  window.addEventListener('scroll', () => {
+       const navbar = document.getElementById('navbar');
+       if (window.scrollY > 100) {
+         navbar.classList.add('scrolled');
+       } else {
+         navbar.classList.remove('scrolled');
+       }
+     });
+ </script>
+<script>
+    const container = document.querySelector('.testimonial-container');
+const cards = document.querySelectorAll('.testimonial-card');
+const totalCards = cards.length;
+const visibleCards = 3; // Number of cards to show at once
+const cardWidth = cards[0].offsetWidth + 20; // Including margin-right
+let currentIndex = 0;
+
+function updateSlider() {
+const offset = -currentIndex * cardWidth;
+container.style.transform = `translateX(${offset}px)`;
+}
+
+function prevSlide() {
+if (currentIndex > 0) {
+    currentIndex--;
+} else {
+    currentIndex = totalCards - visibleCards;
+}
+updateSlider();
+}
+
+function nextSlide() {
+if (currentIndex < totalCards - visibleCards) {
+    currentIndex++;
+} else {
+    currentIndex = 0;
+}
+updateSlider();
+}
+
+// Optional: Automatically move to the next slide every 5 seconds
+setInterval(nextSlide, 5000);
+  </script>
+<script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.min.js" integrity="sha384-+sLIOodYLS7CIrQpBjl+C7nPvqq+FbNUBDunl/OZv93DB7Ln/533i8e/mZXLi/P+" crossorigin="anonymous"></script>
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+
+</html>
